@@ -1,4 +1,4 @@
 services:
-    Pawsitiwe\SuluTurnstileBundle\Dynamic\Types\TurnstileType:
+    Pawsitiwe\SuluTurnstileBundle\Form\Dynamic\Types\TurnstileType:
         tags:
             - { name: sulu_form.dynamic.type }
