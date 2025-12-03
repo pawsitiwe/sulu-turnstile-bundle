@@ -1,0 +1,4 @@
+services:
+    Pawsitiwe\SuluTurnstileBundle\Dynamic\Types\TurnstileType:
+        tags:
+            - { name: sulu_form.dynamic.type }

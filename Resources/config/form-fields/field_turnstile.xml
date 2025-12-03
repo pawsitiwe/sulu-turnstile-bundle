@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<properties xmlns="http://schemas.sulu.io/template/template"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:xi="http://www.w3.org/2001/XInclude"
+            xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/properties-1.0.xsd">
+
+    <xi:include
+            href="../../vendor/sulu/form-bundle/Resources/config/form-fields/header.xml"
+            xpointer="xmlns(sulu=http://schemas.sulu.io/template/template)xpointer(//sulu:property)"
+    />
+
+    <property name="title" type="text_editor" mandatory="true">
+        <meta>
+            <title>Cloudflare Turnstile</title>
+        </meta>
+    </property>
+
+    <property name="shortTitle" type="text_line">
+        <meta>
+            <title>Short Title</title>
+            <info_text>Short description of this field</info_text>
+        </meta>
+    </property>
+
+</properties>
