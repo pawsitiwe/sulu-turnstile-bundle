@@ -2,7 +2,7 @@
     "name": "pawsitiwe/sulu-turnstile-bundle",
     "description": "Cloudflare Turnstile integration for Sulu FormBundle (fully automatic).",
     "type": "symfony-bundle",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "keywords": ["sulu", "cms", "bundle", "captcha", "turnstile"],
     "license": "MIT",
     "autoload": {
