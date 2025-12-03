@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Form\Dynamic\Types;
+namespace Pawsitiwe\SuluTurnstileBundle\Form\Dynamic\Types;
 
 use PixelOpen\CloudflareTurnstileBundle\Validator\CloudflareTurnstile;
 use Sulu\Bundle\FormBundle\Dynamic\FormFieldTypeConfiguration;
@@ -14,7 +14,7 @@ class TurnstileType implements FormFieldTypeInterface
     {
         return new FormFieldTypeConfiguration(
             'app.form.dynamic.type_turnstile',
-            __DIR__ . '/../../../../config/form-fields/field_turnstile.xml',
+            __DIR__ . '/../../../../Resources/config/form-fields/field_turnstile.xml',
             'special'
         );
     }
