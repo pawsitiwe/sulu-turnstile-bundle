@@ -5,20 +5,20 @@
             xsi:schemaLocation="http://schemas.sulu.io/template/template http://schemas.sulu.io/template/properties-1.0.xsd">
 
     <xi:include
-            href="../../vendor/sulu/form-bundle/Resources/config/form-fields/header.xml"
+            href="../../../../../../vendor/sulu/form-bundle/Resources/config/form-fields/header.xml"
             xpointer="xmlns(sulu=http://schemas.sulu.io/template/template)xpointer(//sulu:property)"
     />
 
     <property name="title" type="text_editor" mandatory="true">
         <meta>
-            <title>Cloudflare Turnstile</title>
+            <title>sulu_form.title</title>
         </meta>
     </property>
 
     <property name="shortTitle" type="text_line">
         <meta>
-            <title>Short Title</title>
-            <info_text>Short description of this field</info_text>
+            <title>sulu_form.short_title</title>
+            <info_text>sulu_form.short_title_description</info_text>
         </meta>
     </property>
 
