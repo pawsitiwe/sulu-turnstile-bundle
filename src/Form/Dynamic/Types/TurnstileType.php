@@ -13,7 +13,7 @@ class TurnstileType implements FormFieldTypeInterface
     public function getConfiguration(): FormFieldTypeConfiguration
     {
         return new FormFieldTypeConfiguration(
-            'app.form.dynamic.type_turnstile',
+            'Cloudflare Turnstile',
             __DIR__ . '/../../../../Resources/config/form-fields/field_turnstile.xml',
             'special'
         );
